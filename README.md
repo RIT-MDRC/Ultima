@@ -2,11 +2,12 @@
 
 ## Author(s)
 - Clinten Hopkins (cmh3586@rit.edu)
-- Lance Malone (lnm9646@rit.edu)
 - Nat Wilson (nmw6290@rit.edu)
+- Jake Pregitzer (jwp2545@rit.edu)
 
 ## Maintainer(s)
 - Clinten Hopkins (cmh3586@rit.edu)
+- Jake Pregitzer (jwp2545@rit.edu)
 
 ## Description
 The source code for RIT's Inteligent Ground Vehicle Competetion (IGVC) team.
