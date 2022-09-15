@@ -1,0 +1,8 @@
+prefix=/home/walrusdev/Documents/Ultima/Ultima/devel
+
+Name: navx
+Description: Description of navx
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
