@@ -1,2 +1,0 @@
-navx
--DCATKIN_DEVEL_PREFIX=/home/walrusdev/Documents/Ultima/Ultima/devel -DCMAKE_INSTALL_PREFIX=/home/walrusdev/Documents/Ultima/Ultima/install -G Unix Makefiles
