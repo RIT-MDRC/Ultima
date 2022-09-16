@@ -6,7 +6,7 @@
 - Jake Pregitzer (jwp2545@rit.edu)
 - Liam Huff (lsh8197@rit.edu)
 - Joe O'Neil (jmo8310@rit.edu)
-- Ardit Koti
+- Ardit Koti (ak1935@rit.edu)
 
 ## Maintainer(s)
 - Clinten Hopkins (cmh3586@rit.edu)
