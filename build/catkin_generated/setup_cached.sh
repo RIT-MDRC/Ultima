@@ -8,6 +8,7 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/ultima/Ultima/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/ultima/Ultima/devel/lib:$LD_LIBRARY_PATH"
 export PWD='/home/ultima/Ultima/build'
 export ROSLISP_PACKAGE_DIRECTORIES='/home/ultima/Ultima/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/ultima/Ultima/src:$ROS_PACKAGE_PATH"
