@@ -1,6 +1,0 @@
-Invoking command in '/home/walrus/Ultima/build/camera_lite_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/walrus/Ultima/src/camera_lite_interfaces -DCMAKE_INSTALL_PREFIX=/home/walrus/Ultima/install/camera_lite_interfaces
-Invoked command in '/home/walrus/Ultima/build/camera_lite_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/walrus/Ultima/src/camera_lite_interfaces -DCMAKE_INSTALL_PREFIX=/home/walrus/Ultima/install/camera_lite_interfaces
-Invoking command in '/home/walrus/Ultima/build/camera_lite_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/walrus/Ultima/build/camera_lite_interfaces -- -j8 -l8
-Invoked command in '/home/walrus/Ultima/build/camera_lite_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/walrus/Ultima/build/camera_lite_interfaces -- -j8 -l8
-Invoking command in '/home/walrus/Ultima/build/camera_lite_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/walrus/Ultima/build/camera_lite_interfaces
-Invoked command in '/home/walrus/Ultima/build/camera_lite_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/walrus/Ultima/build/camera_lite_interfaces

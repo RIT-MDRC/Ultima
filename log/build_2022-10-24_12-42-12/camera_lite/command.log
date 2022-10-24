@@ -1,4 +1,0 @@
-Invoking command in '/home/walrus/Ultima/build/camera_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/walrus/Ultima/src/camera_lite -DCMAKE_INSTALL_PREFIX=/home/walrus/Ultima/install/camera_lite
-Invoked command in '/home/walrus/Ultima/build/camera_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/walrus/Ultima/src/camera_lite -DCMAKE_INSTALL_PREFIX=/home/walrus/Ultima/install/camera_lite
-Invoking command in '/home/walrus/Ultima/build/camera_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/walrus/Ultima/build/camera_lite -- -j8 -l8
-Invoked command in '/home/walrus/Ultima/build/camera_lite' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/walrus/Ultima/build/camera_lite -- -j8 -l8
