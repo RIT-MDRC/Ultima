@@ -1,0 +1,8 @@
+[01m[K/home/walrus/Ultima/src/camera_lite/src/picture_node.cpp:33:10:[m[K [01;31m[Kfatal error: [m[Kimage_transport/image_transport.hpp: No such file or directory
+   33 | #include [01;31m[K<image_transport/image_transport.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/picture_node.dir/build.make:76: CMakeFiles/picture_node.dir/src/picture_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/picture_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

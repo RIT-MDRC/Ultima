@@ -1,0 +1,11 @@
+/home/walrus/Ultima/build/camera_lite/CMakeFiles/uninstall.dir
+/home/walrus/Ultima/build/camera_lite/CMakeFiles/camera_lite_uninstall.dir
+/home/walrus/Ultima/build/camera_lite/CMakeFiles/camera_node.dir
+/home/walrus/Ultima/build/camera_lite/CMakeFiles/picture_node.dir
+/home/walrus/Ultima/build/camera_lite/CMakeFiles/test.dir
+/home/walrus/Ultima/build/camera_lite/CMakeFiles/edit_cache.dir
+/home/walrus/Ultima/build/camera_lite/CMakeFiles/rebuild_cache.dir
+/home/walrus/Ultima/build/camera_lite/CMakeFiles/list_install_components.dir
+/home/walrus/Ultima/build/camera_lite/CMakeFiles/install.dir
+/home/walrus/Ultima/build/camera_lite/CMakeFiles/install/local.dir
+/home/walrus/Ultima/build/camera_lite/CMakeFiles/install/strip.dir

@@ -1,0 +1,4 @@
+source;share/camera_lite_interfaces/local_setup.bash
+source;share/camera_lite_interfaces/local_setup.dsv
+source;share/camera_lite_interfaces/local_setup.sh
+source;share/camera_lite_interfaces/local_setup.zsh

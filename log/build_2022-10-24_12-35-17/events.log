@@ -1,0 +1,364 @@
+[0.000000] (-) TimerEvent: {}
+[0.000284] (-) JobUnselected: {'identifier': 'camera_lite'}
+[0.000304] (-) JobUnselected: {'identifier': 'lidar_pkg'}
+[0.000316] (-) JobUnselected: {'identifier': 'vision_pkg'}
+[0.000329] (camera_lite_interfaces) JobQueued: {'identifier': 'camera_lite_interfaces', 'dependencies': OrderedDict()}
+[0.000588] (camera_lite_interfaces) JobStarted: {'identifier': 'camera_lite_interfaces'}
+[0.100127] (-) TimerEvent: {}
+[0.115504] (camera_lite_interfaces) JobProgress: {'identifier': 'camera_lite_interfaces', 'progress': 'cmake'}
+[0.115921] (camera_lite_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/walrus/Ultima/src/camera_lite_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/walrus/Ultima/install/camera_lite_interfaces'], 'cwd': '/home/walrus/Ultima/build/camera_lite_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'walrus'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/walrus'), ('OLDPWD', '/home/walrus'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2055'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'walrus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'walrus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('DOTNET_ROOT', '/usr/lib/dotnet/dotnet6-6.0.110'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/walrus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/walrus/.dotnet/tools'), ('SESSION_MANAGER', 'local/Walrus:@/tmp/.ICE-unix/1800,unix/Walrus:/tmp/.ICE-unix/1800'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/defdcae6_2fcf_4437_b05f_e81581c2f402'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/walrus/.cache/dotnet_bundle_extract'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.E2SWU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.186'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/walrus/Ultima/build/camera_lite_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.200327] (-) TimerEvent: {}
+[0.300769] (-) TimerEvent: {}
+[0.401218] (-) TimerEvent: {}
+[0.501689] (-) TimerEvent: {}
+[0.602121] (-) TimerEvent: {}
+[0.702553] (-) TimerEvent: {}
+[0.803074] (-) TimerEvent: {}
+[0.903594] (-) TimerEvent: {}
+[1.004017] (-) TimerEvent: {}
+[1.104474] (-) TimerEvent: {}
+[1.204989] (-) TimerEvent: {}
+[1.305432] (-) TimerEvent: {}
+[1.314014] (camera_lite_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[1.405571] (-) TimerEvent: {}
+[1.506024] (-) TimerEvent: {}
+[1.606488] (-) TimerEvent: {}
+[1.706973] (-) TimerEvent: {}
+[1.807489] (-) TimerEvent: {}
+[1.908022] (-) TimerEvent: {}
+[2.008566] (-) TimerEvent: {}
+[2.109054] (-) TimerEvent: {}
+[2.133090] (camera_lite_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[2.209187] (-) TimerEvent: {}
+[2.223130] (camera_lite_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.309324] (-) TimerEvent: {}
+[2.359726] (camera_lite_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.365387] (camera_lite_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.368383] (camera_lite_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.376482] (camera_lite_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.392876] (camera_lite_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.409426] (-) TimerEvent: {}
+[2.500451] (camera_lite_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.505413] (camera_lite_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.505511] (camera_lite_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.505812] (camera_lite_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.509578] (-) TimerEvent: {}
+[2.609844] (-) TimerEvent: {}
+[2.640857] (camera_lite_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.710079] (-) TimerEvent: {}
+[2.810537] (-) TimerEvent: {}
+[2.910872] (-) TimerEvent: {}
+[2.980583] (camera_lite_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[3.011018] (-) TimerEvent: {}
+[3.111452] (-) TimerEvent: {}
+[3.211850] (-) TimerEvent: {}
+[3.312296] (-) TimerEvent: {}
+[3.412649] (-) TimerEvent: {}
+[3.512936] (-) TimerEvent: {}
+[3.613332] (-) TimerEvent: {}
+[3.643361] (camera_lite_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.687100] (camera_lite_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.713454] (-) TimerEvent: {}
+[3.771645] (camera_lite_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.813763] (-) TimerEvent: {}
+[3.914163] (-) TimerEvent: {}
+[4.014524] (-) TimerEvent: {}
+[4.114878] (-) TimerEvent: {}
+[4.211149] (camera_lite_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.214979] (-) TimerEvent: {}
+[4.315321] (-) TimerEvent: {}
+[4.415860] (-) TimerEvent: {}
+[4.516352] (-) TimerEvent: {}
+[4.616811] (-) TimerEvent: {}
+[4.620851] (camera_lite_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.2.2 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[4.717018] (-) TimerEvent: {}
+[4.817468] (-) TimerEvent: {}
+[4.917888] (-) TimerEvent: {}
+[5.018275] (-) TimerEvent: {}
+[5.118521] (-) TimerEvent: {}
+[5.218889] (-) TimerEvent: {}
+[5.248051] (camera_lite_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.319050] (-) TimerEvent: {}
+[5.419467] (-) TimerEvent: {}
+[5.519845] (-) TimerEvent: {}
+[5.593787] (camera_lite_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.620029] (-) TimerEvent: {}
+[5.720493] (-) TimerEvent: {}
+[5.821040] (-) TimerEvent: {}
+[5.915793] (camera_lite_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.921189] (-) TimerEvent: {}
+[5.939775] (camera_lite_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[5.951580] (camera_lite_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.021350] (-) TimerEvent: {}
+[6.039627] (camera_lite_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[6.039858] (camera_lite_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.039973] (camera_lite_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.040073] (camera_lite_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[6.064764] (camera_lite_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[6.121549] (-) TimerEvent: {}
+[6.169893] (camera_lite_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.221776] (-) TimerEvent: {}
+[6.322176] (-) TimerEvent: {}
+[6.422672] (-) TimerEvent: {}
+[6.515816] (camera_lite_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.522840] (-) TimerEvent: {}
+[6.534095] (camera_lite_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.546270] (camera_lite_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.562449] (camera_lite_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.623074] (-) TimerEvent: {}
+[6.634245] (camera_lite_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[6.636166] (camera_lite_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/walrus/Ultima/build/camera_lite_interfaces\n'}
+[6.640657] (camera_lite_interfaces) CommandEnded: {'returncode': 0}
+[6.641073] (camera_lite_interfaces) JobProgress: {'identifier': 'camera_lite_interfaces', 'progress': 'build'}
+[6.642091] (camera_lite_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/walrus/Ultima/build/camera_lite_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/walrus/Ultima/build/camera_lite_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'walrus'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/walrus'), ('OLDPWD', '/home/walrus'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2055'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'walrus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'walrus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('DOTNET_ROOT', '/usr/lib/dotnet/dotnet6-6.0.110'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/walrus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/walrus/.dotnet/tools'), ('SESSION_MANAGER', 'local/Walrus:@/tmp/.ICE-unix/1800,unix/Walrus:/tmp/.ICE-unix/1800'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/defdcae6_2fcf_4437_b05f_e81581c2f402'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/walrus/.cache/dotnet_bundle_extract'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.E2SWU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.186'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/walrus/Ultima/build/camera_lite_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.668727] (camera_lite_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.674477] (camera_lite_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.679278] (camera_lite_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_camera_lite_interfaces\n'}
+[6.723158] (-) TimerEvent: {}
+[6.823422] (-) TimerEvent: {}
+[6.874449] (camera_lite_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[6.875741] (camera_lite_interfaces) StdoutLine: {'line': b'creating camera_lite_interfaces.egg-info\n'}
+[6.876279] (camera_lite_interfaces) StdoutLine: {'line': b'writing camera_lite_interfaces.egg-info/PKG-INFO\n'}
+[6.876921] (camera_lite_interfaces) StdoutLine: {'line': b'writing dependency_links to camera_lite_interfaces.egg-info/dependency_links.txt\n'}
+[6.877258] (camera_lite_interfaces) StdoutLine: {'line': b'writing top-level names to camera_lite_interfaces.egg-info/top_level.txt\n'}
+[6.877746] (camera_lite_interfaces) StdoutLine: {'line': b"writing manifest file 'camera_lite_interfaces.egg-info/SOURCES.txt'\n"}
+[6.888575] (camera_lite_interfaces) StdoutLine: {'line': b"reading manifest file 'camera_lite_interfaces.egg-info/SOURCES.txt'\n"}
+[6.889051] (camera_lite_interfaces) StdoutLine: {'line': b"writing manifest file 'camera_lite_interfaces.egg-info/SOURCES.txt'\n"}
+[6.907249] (camera_lite_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_camera_lite_interfaces_egg\n'}
+[6.923587] (-) TimerEvent: {}
+[7.023796] (-) TimerEvent: {}
+[7.066609] (camera_lite_interfaces) StdoutLine: {'line': b'[  6%] Built target camera_lite_interfaces__cpp\n'}
+[7.073022] (camera_lite_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.074204] (camera_lite_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.074445] (camera_lite_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.085684] (camera_lite_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/camera_lite_interfaces__rosidl_generator_c.dir/rosidl_generator_c/camera_lite_interfaces/srv/detail/save__functions.c.o\x1b[0m\n'}
+[7.123902] (-) TimerEvent: {}
+[7.224180] (-) TimerEvent: {}
+[7.252269] (camera_lite_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/camera_lite_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/camera_lite_interfaces/srv/save__type_support.cpp.o\x1b[0m\n'}
+[7.277959] (camera_lite_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/camera_lite_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/camera_lite_interfaces/srv/detail/save__type_support.cpp.o\x1b[0m\n'}
+[7.287559] (camera_lite_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/camera_lite_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/camera_lite_interfaces/srv/detail/dds_fastrtps/save__type_support.cpp.o\x1b[0m\n'}
+[7.324323] (-) TimerEvent: {}
+[7.424731] (-) TimerEvent: {}
+[7.525100] (-) TimerEvent: {}
+[7.625472] (-) TimerEvent: {}
+[7.699507] (camera_lite_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking C shared library libcamera_lite_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[7.725622] (-) TimerEvent: {}
+[7.788910] (camera_lite_interfaces) StdoutLine: {'line': b'[ 32%] Built target camera_lite_interfaces__rosidl_generator_c\n'}
+[7.794657] (camera_lite_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.794867] (camera_lite_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.794939] (camera_lite_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.825665] (-) TimerEvent: {}
+[7.925877] (-) TimerEvent: {}
+[7.974295] (camera_lite_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/camera_lite_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/camera_lite_interfaces/srv/save__type_support.cpp.o\x1b[0m\n'}
+[8.001390] (camera_lite_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/camera_lite_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/camera_lite_interfaces/srv/detail/save__type_support.c.o\x1b[0m\n'}
+[8.012409] (camera_lite_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/camera_lite_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/camera_lite_interfaces/srv/detail/save__type_support_c.cpp.o\x1b[0m\n'}
+[8.025975] (-) TimerEvent: {}
+[8.073384] (camera_lite_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libcamera_lite_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.100880] (camera_lite_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_lite_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.126093] (-) TimerEvent: {}
+[8.130584] (camera_lite_interfaces) StdoutLine: {'line': b'[ 58%] Built target camera_lite_interfaces__rosidl_typesupport_introspection_c\n'}
+[8.153025] (camera_lite_interfaces) StdoutLine: {'line': b'[ 58%] Built target camera_lite_interfaces__rosidl_typesupport_c\n'}
+[8.213089] (camera_lite_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_lite_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.226199] (-) TimerEvent: {}
+[8.269528] (camera_lite_interfaces) StdoutLine: {'line': b'[ 61%] Built target camera_lite_interfaces__rosidl_typesupport_cpp\n'}
+[8.326321] (-) TimerEvent: {}
+[8.357804] (camera_lite_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_lite_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.426430] (-) TimerEvent: {}
+[8.445908] (camera_lite_interfaces) StdoutLine: {'line': b'[ 64%] Built target camera_lite_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[8.526545] (-) TimerEvent: {}
+[8.626812] (-) TimerEvent: {}
+[8.676320] (camera_lite_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_lite_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.676499] (camera_lite_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_lite_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.726949] (-) TimerEvent: {}
+[8.783133] (camera_lite_interfaces) StdoutLine: {'line': b'[ 70%] Built target camera_lite_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[8.796425] (camera_lite_interfaces) StdoutLine: {'line': b'[ 70%] Built target camera_lite_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[8.811618] (camera_lite_interfaces) StdoutLine: {'line': b'[ 70%] Built target camera_lite_interfaces\n'}
+[8.824332] (camera_lite_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.827023] (-) TimerEvent: {}
+[8.927251] (-) TimerEvent: {}
+[9.027521] (-) TimerEvent: {}
+[9.127863] (-) TimerEvent: {}
+[9.228340] (-) TimerEvent: {}
+[9.328731] (-) TimerEvent: {}
+[9.429056] (-) TimerEvent: {}
+[9.529362] (-) TimerEvent: {}
+[9.629775] (-) TimerEvent: {}
+[9.730192] (-) TimerEvent: {}
+[9.830649] (-) TimerEvent: {}
+[9.931136] (-) TimerEvent: {}
+[10.031589] (-) TimerEvent: {}
+[10.132077] (-) TimerEvent: {}
+[10.232532] (-) TimerEvent: {}
+[10.333042] (-) TimerEvent: {}
+[10.433493] (-) TimerEvent: {}
+[10.533753] (-) TimerEvent: {}
+[10.563157] (camera_lite_interfaces) StdoutLine: {'line': b'[ 74%] Built target camera_lite_interfaces__py\n'}
+[10.574758] (camera_lite_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/camera_lite_interfaces__rosidl_generator_py.dir/rosidl_generator_py/camera_lite_interfaces/srv/_save_s.c.o\x1b[0m\n'}
+[10.633888] (-) TimerEvent: {}
+[10.734347] (-) TimerEvent: {}
+[10.834822] (-) TimerEvent: {}
+[10.935299] (-) TimerEvent: {}
+[11.035795] (-) TimerEvent: {}
+[11.136283] (-) TimerEvent: {}
+[11.236779] (-) TimerEvent: {}
+[11.337239] (-) TimerEvent: {}
+[11.437712] (-) TimerEvent: {}
+[11.498823] (camera_lite_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/camera_lite_interfaces/libcamera_lite_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[11.537829] (-) TimerEvent: {}
+[11.596753] (camera_lite_interfaces) StdoutLine: {'line': b'[ 80%] Built target camera_lite_interfaces__rosidl_generator_py\n'}
+[11.613502] (camera_lite_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/camera_lite_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/camera_lite_interfaces/_camera_lite_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.613662] (camera_lite_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/camera_lite_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/camera_lite_interfaces/_camera_lite_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.613717] (camera_lite_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/camera_lite_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/camera_lite_interfaces/_camera_lite_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.637927] (-) TimerEvent: {}
+[11.680784] (camera_lite_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/camera_lite_interfaces/camera_lite_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.685614] (camera_lite_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/camera_lite_interfaces/camera_lite_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.688306] (camera_lite_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/camera_lite_interfaces/camera_lite_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.705871] (camera_lite_interfaces) StdoutLine: {'line': b'[100%] Built target camera_lite_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[11.709692] (camera_lite_interfaces) StdoutLine: {'line': b'[100%] Built target camera_lite_interfaces__rosidl_typesupport_c__pyext\n'}
+[11.712232] (camera_lite_interfaces) StdoutLine: {'line': b'[100%] Built target camera_lite_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.726591] (camera_lite_interfaces) CommandEnded: {'returncode': 0}
+[11.738005] (-) TimerEvent: {}
+[11.759307] (camera_lite_interfaces) JobProgress: {'identifier': 'camera_lite_interfaces', 'progress': 'install'}
+[11.764624] (camera_lite_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/walrus/Ultima/build/camera_lite_interfaces'], 'cwd': '/home/walrus/Ultima/build/camera_lite_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'walrus'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/walrus'), ('OLDPWD', '/home/walrus'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2055'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'walrus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'walrus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('DOTNET_ROOT', '/usr/lib/dotnet/dotnet6-6.0.110'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/walrus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/walrus/.dotnet/tools'), ('SESSION_MANAGER', 'local/Walrus:@/tmp/.ICE-unix/1800,unix/Walrus:/tmp/.ICE-unix/1800'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/defdcae6_2fcf_4437_b05f_e81581c2f402'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/walrus/.cache/dotnet_bundle_extract'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.E2SWU1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.186'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/walrus/Ultima/build/camera_lite_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.770173] (camera_lite_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.770314] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/ament_index/resource_index/rosidl_interfaces/camera_lite_interfaces\n'}
+[11.770384] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces\n'}
+[11.770457] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/msg\n'}
+[11.770506] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.770569] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv\n'}
+[11.770612] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv/detail\n'}
+[11.770656] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv/detail/save__functions.h\n'}
+[11.770716] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv/detail/save__struct.h\n'}
+[11.770779] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv/detail/save__type_support.h\n'}
+[11.770817] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv/detail/save__functions.c\n'}
+[11.770861] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv/save.h\n'}
+[11.770919] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/environment/library_path.sh\n'}
+[11.770978] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/environment/library_path.dsv\n'}
+[11.771037] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/lib/libcamera_lite_interfaces__rosidl_generator_c.so\n'}
+[11.771140] (camera_lite_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/walrus/Ultima/install/camera_lite_interfaces/lib/libcamera_lite_interfaces__rosidl_generator_c.so" to ""\n'}
+[11.771203] (camera_lite_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces\n'}
+[11.771264] (camera_lite_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/msg\n'}
+[11.771329] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.771373] (camera_lite_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv\n'}
+[11.771415] (camera_lite_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv/detail\n'}
+[11.771457] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv/detail/save__rosidl_typesupport_fastrtps_c.h\n'}
+[11.771515] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/lib/libcamera_lite_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[11.771578] (camera_lite_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/walrus/Ultima/install/camera_lite_interfaces/lib/libcamera_lite_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.771624] (camera_lite_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces\n'}
+[11.771683] (camera_lite_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/msg\n'}
+[11.771750] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.771791] (camera_lite_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv\n'}
+[11.771835] (camera_lite_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv/detail\n'}
+[11.771877] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv/detail/save__rosidl_typesupport_introspection_c.h\n'}
+[11.771932] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv/detail/save__type_support.c\n'}
+[11.771970] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/lib/libcamera_lite_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[11.772031] (camera_lite_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/walrus/Ultima/install/camera_lite_interfaces/lib/libcamera_lite_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.772090] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/lib/libcamera_lite_interfaces__rosidl_typesupport_c.so\n'}
+[11.772195] (camera_lite_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/walrus/Ultima/install/camera_lite_interfaces/lib/libcamera_lite_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[11.772259] (camera_lite_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces\n'}
+[11.772304] (camera_lite_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv\n'}
+[11.772362] (camera_lite_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv/detail\n'}
+[11.772433] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv/detail/save__struct.hpp\n'}
+[11.772488] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv/detail/save__traits.hpp\n'}
+[11.772534] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv/detail/save__builder.hpp\n'}
+[11.772579] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv/save.hpp\n'}
+[11.772632] (camera_lite_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces\n'}
+[11.772677] (camera_lite_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/msg\n'}
+[11.772748] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.772789] (camera_lite_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv\n'}
+[11.772838] (camera_lite_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv/detail\n'}
+[11.772885] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv/detail/save__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.772929] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv/detail/dds_fastrtps\n'}
+[11.772974] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/lib/libcamera_lite_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.773043] (camera_lite_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/walrus/Ultima/install/camera_lite_interfaces/lib/libcamera_lite_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.773081] (camera_lite_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces\n'}
+[11.773117] (camera_lite_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv\n'}
+[11.773156] (camera_lite_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv/detail\n'}
+[11.773210] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv/detail/save__type_support.cpp\n'}
+[11.773254] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/include/camera_lite_interfaces/camera_lite_interfaces/srv/detail/save__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.773295] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/lib/libcamera_lite_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[11.773341] (camera_lite_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/walrus/Ultima/install/camera_lite_interfaces/lib/libcamera_lite_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.773398] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/lib/libcamera_lite_interfaces__rosidl_typesupport_cpp.so\n'}
+[11.773466] (camera_lite_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/walrus/Ultima/install/camera_lite_interfaces/lib/libcamera_lite_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[11.773507] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/environment/pythonpath.sh\n'}
+[11.773557] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/environment/pythonpath.dsv\n'}
+[11.773616] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces-1.0.0-py3.10.egg-info\n'}
+[11.773656] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[11.773693] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[11.774230] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[11.774282] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[11.774341] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces\n'}
+[11.774438] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces/_camera_lite_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[11.774538] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces/_camera_lite_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.774614] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces/camera_lite_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.774681] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces/libcamera_lite_interfaces__rosidl_generator_py.so\n'}
+[11.774726] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces/camera_lite_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.774791] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces/srv\n'}
+[11.774869] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces/srv/_save.py\n'}
+[11.774909] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces/srv/__init__.py\n'}
+[11.774953] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces/srv/_save_s.c\n'}
+[11.775031] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces/camera_lite_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.775070] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces/__init__.py\n'}
+[11.775107] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces/_camera_lite_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.801573] (camera_lite_interfaces) StdoutLine: {'line': b"Listing '/home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces'...\n"}
+[11.801711] (camera_lite_interfaces) StdoutLine: {'line': b"Compiling '/home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces/__init__.py'...\n"}
+[11.801756] (camera_lite_interfaces) StdoutLine: {'line': b"Listing '/home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces/srv'...\n"}
+[11.801797] (camera_lite_interfaces) StdoutLine: {'line': b"Compiling '/home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces/srv/__init__.py'...\n"}
+[11.801837] (camera_lite_interfaces) StdoutLine: {'line': b"Compiling '/home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces/srv/_save.py'...\n"}
+[11.804682] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces/camera_lite_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.804820] (camera_lite_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces/camera_lite_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.804899] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces/camera_lite_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.805058] (camera_lite_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces/camera_lite_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.805149] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces/camera_lite_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.805298] (camera_lite_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/walrus/Ultima/install/camera_lite_interfaces/local/lib/python3.10/dist-packages/camera_lite_interfaces/camera_lite_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.805359] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/lib/libcamera_lite_interfaces__rosidl_generator_py.so\n'}
+[11.805507] (camera_lite_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/walrus/Ultima/install/camera_lite_interfaces/lib/libcamera_lite_interfaces__rosidl_generator_py.so" to ""\n'}
+[11.805574] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/srv/Save.idl\n'}
+[11.805657] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/srv/Save.srv\n'}
+[11.805723] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/srv/Save_Request.msg\n'}
+[11.805792] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/srv/Save_Response.msg\n'}
+[11.805888] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/ament_index/resource_index/package_run_dependencies/camera_lite_interfaces\n'}
+[11.805976] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/ament_index/resource_index/parent_prefix_path/camera_lite_interfaces\n'}
+[11.806052] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/environment/ament_prefix_path.sh\n'}
+[11.806118] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/environment/ament_prefix_path.dsv\n'}
+[11.806185] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/environment/path.sh\n'}
+[11.806251] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/environment/path.dsv\n'}
+[11.806318] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/local_setup.bash\n'}
+[11.806385] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/local_setup.sh\n'}
+[11.806452] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/local_setup.zsh\n'}
+[11.806516] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/local_setup.dsv\n'}
+[11.806585] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/package.dsv\n'}
+[11.806677] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/ament_index/resource_index/packages/camera_lite_interfaces\n'}
+[11.806774] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/export_camera_lite_interfaces__rosidl_generator_cExport.cmake\n'}
+[11.806849] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/export_camera_lite_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.806928] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/export_camera_lite_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.807006] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/export_camera_lite_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.807083] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/camera_lite_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.807154] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/camera_lite_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.807230] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/camera_lite_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[11.807301] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/camera_lite_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.807377] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/export_camera_lite_interfaces__rosidl_generator_cppExport.cmake\n'}
+[11.807453] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/export_camera_lite_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.807524] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/export_camera_lite_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.807606] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/camera_lite_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.807683] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/camera_lite_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.807760] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/camera_lite_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[11.807832] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/camera_lite_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.807909] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/export_camera_lite_interfaces__rosidl_generator_pyExport.cmake\n'}
+[11.807980] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/export_camera_lite_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.808051] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[11.808117] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.808189] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.808259] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.808329] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.808395] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.808464] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.808531] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/camera_lite_interfacesConfig.cmake\n'}
+[11.808588] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/cmake/camera_lite_interfacesConfig-version.cmake\n'}
+[11.808655] (camera_lite_interfaces) StdoutLine: {'line': b'-- Installing: /home/walrus/Ultima/install/camera_lite_interfaces/share/camera_lite_interfaces/package.xml\n'}
+[11.810106] (camera_lite_interfaces) CommandEnded: {'returncode': 0}
+[11.838129] (-) TimerEvent: {}
+[11.938467] (-) TimerEvent: {}
+[12.038914] (-) TimerEvent: {}
+[12.110185] (camera_lite_interfaces) JobEnded: {'identifier': 'camera_lite_interfaces', 'rc': 0}
+[12.110798] (-) EventReactorShutdown: {}

@@ -1,0 +1,27 @@
+[0.013s] Invoking command in '/home/walrus/Ultima/build/camera_lite': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/walrus/Ultima/build/camera_lite -- -j8 -l8
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target picture_node[0m
+[0.053s] [ 50%] Built target camera_node
+[0.057s] [100%] Built target picture_node
+[0.065s] Invoked command in '/home/walrus/Ultima/build/camera_lite' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/walrus/Ultima/build/camera_lite -- -j8 -l8
+[0.086s] Invoking command in '/home/walrus/Ultima/build/camera_lite': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/walrus/Ultima/build/camera_lite
+[0.090s] -- Install configuration: ""
+[0.090s] -- Up-to-date: /home/walrus/Ultima/install/camera_lite/lib/camera_lite/camera_node
+[0.090s] -- Up-to-date: /home/walrus/Ultima/install/camera_lite/lib/camera_lite/picture_node
+[0.090s] -- Up-to-date: /home/walrus/Ultima/install/camera_lite/share/camera_lite/launch
+[0.090s] -- Up-to-date: /home/walrus/Ultima/install/camera_lite/share/camera_lite/launch/camera.launch.py
+[0.090s] -- Up-to-date: /home/walrus/Ultima/install/camera_lite/share/ament_index/resource_index/package_run_dependencies/camera_lite
+[0.090s] -- Up-to-date: /home/walrus/Ultima/install/camera_lite/share/ament_index/resource_index/parent_prefix_path/camera_lite
+[0.090s] -- Up-to-date: /home/walrus/Ultima/install/camera_lite/share/camera_lite/environment/ament_prefix_path.sh
+[0.091s] -- Up-to-date: /home/walrus/Ultima/install/camera_lite/share/camera_lite/environment/ament_prefix_path.dsv
+[0.091s] -- Up-to-date: /home/walrus/Ultima/install/camera_lite/share/camera_lite/environment/path.sh
+[0.091s] -- Up-to-date: /home/walrus/Ultima/install/camera_lite/share/camera_lite/environment/path.dsv
+[0.091s] -- Up-to-date: /home/walrus/Ultima/install/camera_lite/share/camera_lite/local_setup.bash
+[0.091s] -- Up-to-date: /home/walrus/Ultima/install/camera_lite/share/camera_lite/local_setup.sh
+[0.091s] -- Up-to-date: /home/walrus/Ultima/install/camera_lite/share/camera_lite/local_setup.zsh
+[0.091s] -- Up-to-date: /home/walrus/Ultima/install/camera_lite/share/camera_lite/local_setup.dsv
+[0.091s] -- Installing: /home/walrus/Ultima/install/camera_lite/share/camera_lite/package.dsv
+[0.091s] -- Up-to-date: /home/walrus/Ultima/install/camera_lite/share/ament_index/resource_index/packages/camera_lite
+[0.091s] -- Up-to-date: /home/walrus/Ultima/install/camera_lite/share/camera_lite/cmake/camera_liteConfig.cmake
+[0.091s] -- Up-to-date: /home/walrus/Ultima/install/camera_lite/share/camera_lite/cmake/camera_liteConfig-version.cmake
+[0.091s] -- Up-to-date: /home/walrus/Ultima/install/camera_lite/share/camera_lite/package.xml
+[0.093s] Invoked command in '/home/walrus/Ultima/build/camera_lite' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/walrus/Ultima/build/camera_lite

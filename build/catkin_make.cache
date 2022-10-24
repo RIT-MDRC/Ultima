@@ -1,2 +1,0 @@
-lidar_pkg:vision_pkg
--DCATKIN_DEVEL_PREFIX=/home/ultima/Ultima/devel -DCMAKE_INSTALL_PREFIX=/home/ultima/Ultima/install -G Unix Makefiles
