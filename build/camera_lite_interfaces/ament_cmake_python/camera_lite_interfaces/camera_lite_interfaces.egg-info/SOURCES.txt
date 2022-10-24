@@ -1,8 +1,0 @@
-setup.py
-camera_lite_interfaces/__init__.py
-camera_lite_interfaces.egg-info/PKG-INFO
-camera_lite_interfaces.egg-info/SOURCES.txt
-camera_lite_interfaces.egg-info/dependency_links.txt
-camera_lite_interfaces.egg-info/top_level.txt
-camera_lite_interfaces/srv/__init__.py
-camera_lite_interfaces/srv/_save.py
