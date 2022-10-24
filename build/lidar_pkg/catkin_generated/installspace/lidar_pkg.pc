@@ -1,8 +1,0 @@
-prefix=/home/ultima/Ultima/install
-
-Name: lidar_pkg
-Description: Description of lidar_pkg
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
