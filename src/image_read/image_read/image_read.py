@@ -20,16 +20,26 @@ class MinimalSubscriber(Node):
             10)
         self.subscription  # prevent unused variable warning
         self.br = CvBridge()
+        self.count = 0
+        self.image_number = 1
 
     def listener_callback(self, data):
         self.get_logger().info('Reading an image')
         
         current_frame = self.br.imgmsg_to_cv2(data)
-    
+
+        # save cv2 image
+        if self.count % 10000 == 0:
+            cv2.imwrite('camera_image' + str(self.image_number) + '.jpeg', current_frame)
+            self.image_number += 1
+        else:
+            self.count += 1
+
         # Display image
         cv2.imshow("camera", current_frame)
     
         cv2.waitKey(1)
+
 
 def main(args=None):
     rclpy.init(args=args)
