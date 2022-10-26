@@ -10,6 +10,7 @@ from cv_bridge import CvBridge
 import cv2
 import os
 import sys
+from datetime import datetime
 
 
 class MinimalSubscriber(Node):
@@ -36,7 +37,10 @@ class MinimalSubscriber(Node):
         if self.count % self.frames == 0:
             name = f'camera_image{str(self.image_number)}.jpeg'
             self.get_logger().info(f'Creating {name}')
-            os.chdir(self.directory)
+            t = str(datetime.now())
+            path = os.path.join(self.directory, t)
+            os.mkdir(path)
+            os.chdir(path)
             cv2.imwrite(name, current_frame)
             self.image_number += 1
 
@@ -50,7 +54,8 @@ class MinimalSubscriber(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-
+    if not os.path.exists(sys.argv[1]):
+        exit()
     minimal_subscriber = MinimalSubscriber(sys.argv[1], int(sys.argv[2]))
 
     rclpy.spin(minimal_subscriber)
