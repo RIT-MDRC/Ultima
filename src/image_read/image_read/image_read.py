@@ -37,8 +37,8 @@ class MinimalSubscriber(Node):
             os.chdir(self.directory)
             cv2.imwrite('camera_image' + str(self.image_number) + '.jpeg', current_frame)
             self.image_number += 1
-        else:
-            self.count += 1
+
+        self.count += 1
 
         # Display image
         cv2.imshow("camera", current_frame)
