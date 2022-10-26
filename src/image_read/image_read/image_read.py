@@ -26,7 +26,8 @@ class MinimalSubscriber(Node):
         self.br = CvBridge()
         self.count = 0
         self.image_number = 1
-        self.directory = directory
+        self.directory = os.path.join(directory, str(datetime.now()))
+        os.mkdir(self.directory)
         self.frames = frames
 
     def listener_callback(self, data):
@@ -37,10 +38,7 @@ class MinimalSubscriber(Node):
         if self.count % self.frames == 0:
             name = f'camera_image{str(self.image_number)}.jpeg'
             self.get_logger().info(f'Creating {name}')
-            t = str(datetime.now())
-            path = os.path.join(self.directory, t)
-            os.mkdir(path)
-            os.chdir(path)
+            os.chdir(self.directory)
             cv2.imwrite(name, current_frame)
             self.image_number += 1
 
