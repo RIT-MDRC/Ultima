@@ -14,7 +14,7 @@ import sys
 
 class MinimalSubscriber(Node):
 
-    def __init__(self, directory):
+    def __init__(self, directory, frames):
         super().__init__('minimal_subscriber')
         self.subscription = self.create_subscription(
             Image,
@@ -26,16 +26,18 @@ class MinimalSubscriber(Node):
         self.count = 0
         self.image_number = 1
         self.directory = directory
+        self.frames = frames
 
     def listener_callback(self, data):
-        self.get_logger().info('Reading an image')
 
         current_frame = self.br.imgmsg_to_cv2(data)
 
         # save cv2 image
-        if self.count % 10000 == 0:
+        if self.count % self.frames == 0:
+            name = f'camera_image{str(self.image_number)}.jpeg'
+            self.get_logger().info(f'Creating {name}')
             os.chdir(self.directory)
-            cv2.imwrite('camera_image' + str(self.image_number) + '.jpeg', current_frame)
+            cv2.imwrite(name, current_frame)
             self.image_number += 1
 
         self.count += 1
@@ -48,9 +50,8 @@ class MinimalSubscriber(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    directory = sys.argv[1]
 
-    minimal_subscriber = MinimalSubscriber(directory)
+    minimal_subscriber = MinimalSubscriber(sys.argv[1], int(sys.argv[2]))
 
     rclpy.spin(minimal_subscriber)
 
