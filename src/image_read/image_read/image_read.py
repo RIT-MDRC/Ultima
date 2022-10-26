@@ -8,6 +8,8 @@ from rclpy.node import Node
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
 import cv2
+import os
+import sys
 
 class MinimalSubscriber(Node):
 
@@ -43,6 +45,8 @@ class MinimalSubscriber(Node):
 
 def main(args=None):
     rclpy.init(args=args)
+    directory = sys.argv[1]
+    os.chdir(directory)
 
     minimal_subscriber = MinimalSubscriber()
 
