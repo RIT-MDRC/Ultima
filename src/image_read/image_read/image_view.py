@@ -29,7 +29,9 @@ class MinimalSubscriber(Node):
         current_frame = self.br.imgmsg_to_cv2(data)
         transform = transforms.ToTensor()
         tensor_image = transform(current_frame)
+        img = transforms.ToPILImage()(current_frame)
         print(tensor_image)
+        img.show()
         cv2.waitKey(1)
 
 
