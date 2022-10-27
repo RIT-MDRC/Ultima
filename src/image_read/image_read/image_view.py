@@ -15,8 +15,8 @@ from datetime import datetime
 
 class MinimalSubscriber(Node):
 
-    def __init__(self, directory, frames):
-        super().__init__('minimal_subscriber')
+    def __init__(self):
+        super().__init__('image_viewer')
         self.subscription = self.create_subscription(
             Image,
             '/camera/image_raw',
@@ -24,11 +24,6 @@ class MinimalSubscriber(Node):
             10)
         self.subscription  # prevent unused variable warning
         self.br = CvBridge()
-        self.count = 0
-        self.image_number = 1
-        self.directory = os.path.join(directory, str(datetime.now()))
-        os.mkdir(self.directory)
-        self.frames = frames
 
     def listener_callback(self, data):
         current_frame = self.br.imgmsg_to_cv2(data)
@@ -40,9 +35,7 @@ class MinimalSubscriber(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    if not os.path.exists(sys.argv[1]):
-        exit()
-    minimal_subscriber = MinimalSubscriber(sys.argv[1], int(sys.argv[2]))
+    minimal_subscriber = MinimalSubscriber()
 
     rclpy.spin(minimal_subscriber)
 
