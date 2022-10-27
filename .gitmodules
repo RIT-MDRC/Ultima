@@ -1,4 +1,6 @@
-[submodule "src/camera_lite"]
-	url = https://github.com/slaghuis/camera_lite
-[submodule "src/camera_lite_interfaces/"]
-	url = https://github.com/slaghuis/camera_lite_interfaces
+[submodule "camera_lite"]
+	path = src/camera_lite
+	url = https://github.com/DevWalrus/camera_lite.git
+[submodule "camera_lite_interfaces"]
+	path = src/camera_lite_interfaces
+	url = https://github.com/slaghuis/camera_lite_interfaces.git
