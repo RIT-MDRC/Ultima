@@ -7,11 +7,13 @@
 - Liam Huff (lsh8197@rit.edu)
 - Joe O'Neil (jmo8310@rit.edu)
 - Ardit Koti (ak1935@rit.edu)
+- Micheal Makris (mkm7486@rit.edu)
 
 ## Maintainer(s)
 - Clinten Hopkins (cmh3586@rit.edu)
 - Jake Pregitzer (jwp2545@rit.edu)
 - Joe O'Neil (jmo8310@rit.edu)
+- Ardit Koti (ak1935@rit.edu)
 
 ## Description
 The source code for RIT's Inteligent Ground Vehicle Competetion (IGVC) team.
