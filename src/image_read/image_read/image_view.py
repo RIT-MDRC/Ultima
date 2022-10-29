@@ -12,7 +12,6 @@ import os
 import sys
 from datetime import datetime
 
-
 class MinimalSubscriber(Node):
 
     def __init__(self):
@@ -29,9 +28,10 @@ class MinimalSubscriber(Node):
         current_frame = self.br.imgmsg_to_cv2(data)
         transform = transforms.ToTensor()
         tensor_image = transform(current_frame)
-        img = transforms.ToPILImage()(current_frame)
-        print(tensor_image)
-        img.show()
+        img = transforms.ToPILImage()
+        img = img(tensor_image)
+        cv2.imshow("cv2 Frames", current_frame)
+        cv2.imshow("Pytorch Frames", img)
         cv2.waitKey(1)
 
 
