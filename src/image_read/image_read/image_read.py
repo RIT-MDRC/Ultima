@@ -40,6 +40,10 @@ class MinimalSubscriber(Node):
             self.get_logger().info(f'Creating {name}')
             os.chdir(self.directory)
             cv2.imwrite(name, current_frame)
+            name = f'camera_image{str(self.image_number)}.txt'
+            self.get_logger().info(f'Creating {name}')
+            with open(name, 'r') as f:
+                f.write(data)
             self.image_number += 1
 
         self.count += 1
